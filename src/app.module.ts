@@ -10,7 +10,7 @@ import { AuthModule } from './auth/auth.module';
       type: 'postgres',
       host: 'localhost',
       port: 5432,
-      database: 'grpc-nest',
+      database: 'grpc_nest',
       username: 'myuser',
       password: 'mypassword',
       entities: ['dist/**/*.entity.{ts,js}'],
